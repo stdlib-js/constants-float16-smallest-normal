@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/constants-float16-smallest-normal",
+  "version": "0.0.0",
+  "description": "Smallest positive normalized half-precision floating-point number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float16-smallest-normal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "mathematics",
+    "math",
+    "float",
+    "float16",
+    "16bit",
+    "16-bit",
+    "half",
+    "positive",
+    "nonzero",
+    "min",
+    "minimum",
+    "smallest",
+    "floating-point",
+    "ieee754",
+    "normalized",
+    "normal"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
