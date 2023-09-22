@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT16_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-normal@esm/index.mjs';
+import FLOAT16_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-normal@v0.1.0-esm/index.mjs';
 ```
 
 #### FLOAT16_SMALLEST_NORMAL
@@ -72,7 +72,7 @@ var bool = ( FLOAT16_SMALLEST_NORMAL === 6.103515625e-5 );
 <body>
 <script type="module">
 
-import FLOAT16_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-normal@esm/index.mjs';
+import FLOAT16_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-normal@v0.1.0-esm/index.mjs';
 
 console.log( FLOAT16_SMALLEST_NORMAL );
 // => 6.103515625e-5
