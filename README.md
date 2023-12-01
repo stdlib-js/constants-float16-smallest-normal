@@ -35,38 +35,30 @@ limitations under the License.
 
 > Smallest positive **normalized** [half-precision floating-point number][half-precision-floating-point-format].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float16-smallest-normal
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FLOAT16_SMALLEST_NORMAL = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-normal@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var FLOAT16_SMALLEST_NORMAL = require( 'path/to/vendor/umd/constants-float16-smallest-normal/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-normal@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FLOAT16_SMALLEST_NORMAL;
-})();
-</script>
+var FLOAT16_SMALLEST_NORMAL = require( '@stdlib/constants-float16-smallest-normal' );
 ```
 
 #### FLOAT16_SMALLEST_NORMAL
@@ -90,21 +82,11 @@ var bool = ( FLOAT16_SMALLEST_NORMAL === 6.103515625e-5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-normal@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FLOAT16_SMALLEST_NORMAL = require( '@stdlib/constants-float16-smallest-normal' );
 
 console.log( FLOAT16_SMALLEST_NORMAL );
 // => 6.103515625e-5
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -200,11 +182,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float16/smallest-subnormal]: https://github.com/stdlib-js/constants-float16-smallest-subnormal/tree/umd
+[@stdlib/constants/float16/smallest-subnormal]: https://github.com/stdlib-js/constants-float16-smallest-subnormal
 
-[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal/tree/umd
+[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal
 
-[@stdlib/constants/float64/smallest-normal]: https://github.com/stdlib-js/constants-float64-smallest-normal/tree/umd
+[@stdlib/constants/float64/smallest-normal]: https://github.com/stdlib-js/constants-float64-smallest-normal
 
 <!-- </related-links> -->
 
